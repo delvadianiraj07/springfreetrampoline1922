@@ -15,9 +15,10 @@ $(document).ready(function() {
                 URL: '#game_detail1',
                 type: 'inline',
                 options: {
-                    width: 1178,
-                    height: 470
-                }
+                    width: 1170,
+                    height: 470,
+					maxScale: 2
+                }				
             }
         ],{
             skin: 'metro-white'
@@ -45,9 +46,9 @@ $(document).ready(function() {
                 URL: '#game_detail2',
                 type: 'inline',
                 options: {
-                    width: 1178,
+                    width: 1170,
                     height: 470
-                }
+                }	
             }
         ],{
             skin: 'metro-white'
@@ -75,9 +76,9 @@ $(document).ready(function() {
                 URL: '#game_detail3',
                 type: 'inline',
                 options: {
-                    width: 1178,
+                    width: 1170,
                     height: 470
-                }
+                }	
             }
         ],{
             skin: 'metro-white'
@@ -105,9 +106,9 @@ $(document).ready(function() {
                 URL: '#game_detail4',
                 type: 'inline',
                 options: {
-                    width: 1178,
+                    width: 1170,
                     height: 470
-                }
+                }	
             }
         ],{
             skin: 'metro-white'
@@ -135,9 +136,9 @@ $(document).ready(function() {
                 URL: '#game_detail5',
                 type: 'inline',
                 options: {
-                    width: 1178,
+                    width: 1170,
                     height: 470
-                }
+                }	
             }
         ],{
             skin: 'metro-white'
@@ -165,9 +166,9 @@ $(document).ready(function() {
                 URL: '#game_detail6',
                 type: 'inline',
                 options: {
-                    width: 1178,
+                    width: 1170,
                     height: 470
-                }
+                }	
             }
         ],{
             skin: 'metro-white'
@@ -195,9 +196,9 @@ $(document).ready(function() {
                 URL: '#game_detail7',
                 type: 'inline',
                 options: {
-                    width: 1178,
+                    width: 1170,
                     height: 470
-                }
+                }	
             }
         ],{
             skin: 'metro-white'
@@ -225,9 +226,9 @@ $(document).ready(function() {
                 URL: '#game_detail8',
                 type: 'inline',
                 options: {
-                    width: 1178,
+                    width: 1170,
                     height: 470
-                }
+                }	
             }
         ],{
             skin: 'metro-white'
@@ -255,9 +256,9 @@ $(document).ready(function() {
                 URL: '#game_detail9',
                 type: 'inline',
                 options: {
-                    width: 1178,
+                    width: 1170,
                     height: 470
-                }
+                }	
             }
         ],{
             skin: 'metro-white'
@@ -318,6 +319,9 @@ $(document).bind('cbox_complete', function(){
   $('#cboxLoadedContent, #cboxWrapper, #colorbox').css('height',c_height);
   },500);
 });*/
+
+
+
 
 
 // =========== Counter 
@@ -413,7 +417,7 @@ window.setInterval(function(){
 // ====================================
 
 
-$(window).resize(function(event) {
-    var get_height = $('.ilightbox-wrapper .owl-item').height()();
+/*$(window).resize(function(event) {
+    var get_height = $('.ilightbox-wrapper .owl-item').height();
     $('.ilightbox-wrapper iframe').height(get_height);
-});
+});*/
